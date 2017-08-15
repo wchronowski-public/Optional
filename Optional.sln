@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optional.Core.Tests", "Optional.Core.Tests\Optional.Core.Tests.csproj", "{0797A571-D8CC-4D34-9275-2B108E3BA3B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7D3EC15-10A0-4808-899E-9E2F246672FD}"
-	ProjectSection(SolutionItems) = preProject
-		CodeCoverage.runsettings = CodeCoverage.runsettings
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optional.Core.Mocks", "Optional.Core.Mocks\Optional.Core.Mocks.csproj", "{6750EFFA-4075-40CA-B82B-260D81C72A3F}"
 EndProject
@@ -35,5 +32,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C7FAB00-E588-4601-BDEE-721B36911318}
 	EndGlobalSection
 EndGlobal
