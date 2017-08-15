@@ -5,5 +5,7 @@ namespace Optional.Core {
         bool IsAbsent { get; }
         T Value { get; }
         TReturnType Handle<TReturnType>(Func<T, TReturnType> handlePresent, Func<TReturnType> handleAbsent);
+        void Handle(Action<T> handlePresent, Action handleAbsent);        
+        void Handle(Action<T> handlePresent);
     }
 }
