@@ -1,2 +1,6 @@
 language: csharp
 solution: Optional.sln
+install:  
+  - nuget install xunit.runners -Version 2.3.1 -OutputDirectory testrunner
+script:  
+  - mono ./testrunner/xunit.runners.2.3.1/tools/xunit.console.clr4.exe ./Optional.Core.Tests/bin/Release/Optional.Core.Tests.dll
